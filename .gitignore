@@ -1,0 +1,20 @@
+# Python virtual environments
+venv/
+**/venv/
+
+# Environment variables (Private API keys/Passwords)
+.env
+**/.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# AI extension/Testing folders
+.qodo/
+**/.qodo/
+
+# VS Code settings
+.vscode/
+**/.vscode/
+

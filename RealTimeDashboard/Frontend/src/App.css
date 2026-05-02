@@ -1,0 +1,51 @@
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+/* KEEP ALL STRUCTURE SAME — only color variables already applied */
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+}
+
+#docs {
+  border-right: 1px solid var(--border);
+}
+
+#next-steps ul a {
+  color: var(--text);
+  background: #f8fafc; /* ✅ light */
+}
+
+#next-steps ul a:hover {
+  box-shadow: var(--shadow);
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--border);
+}
+
+.ticks::before {
+  border-left-color: var(--border);
+}
+.ticks::after {
+  border-right-color: var(--border);
+}
